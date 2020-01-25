@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: fantasy;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("burn-down-chart.png");
+	height: 110vh ;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 450px;
+	margin-left: 310px;
+}
+
+ul li {
+	display: inline-block; 
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	border-color: #000;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+
+}
+
+.logo img{
+	float: left;
+	margin-top: 25px;
+	width: 170px;
+	height: 130px;
+}
+
+.logi img{
+	float: right;
+	margin-top: 45px;
+	width: 220px;
+	height: 100px;
+}
+
+.main{
+	max-width: 1600px;
+	margin: auto;
+}
+
+.title h1{
+	position: absolute;
+	top: 15%;
+	left: 53%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	color: #00ff99;
+}
+
+.title h2{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	font-size: 50px;
+	color: #000;
+}
